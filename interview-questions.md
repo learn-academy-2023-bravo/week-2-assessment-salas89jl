@@ -127,12 +127,30 @@ Researched answer: From OpenAI(ChatGPT4)
 
 Research and define the following terms to the best of your ability.
 
-1. Component:
+1. Component:   A component in react uses a special function called Reack Hook, which allows developers to make "a variable with an initial value and a method to update the value as needed" (Learn Bravo 2023 Syllabus). To create a interactive user experience, the React Components often needs to store data and perform logic. This data needs to be stored in a way where the data can be accessed throught the component and updated when required. 
 
-2. Spread operator:
+Referrences: 
+Learn Bravo 2023 Syllabus. Unit Three. React State . https://github.com/learn-academy-2023-bravo/Syllabus/blob/main/react/state.md
 
-3. React state:
+2. Spread operator: 
 
-4. React props:
+The Speard syntax operator can expand an iterable to its indivial elements. This "allows a dynamic number of arguments to be passed in a function" (Learn Bravo 2023 Syllabus)
 
-5. DOM events:
+Referrences: 
+Learn Bravo 2023 Syllabus . Unit Two . JavaScript Spread Operator . https://github.com/learn-academy-2023-bravo/Syllabus/blob/main/react/props.md
+
+3. React state:     In React everything is a component. In order for JavaScript to determine how a component renders and behaves, it uses a special type of variable.  This special variable called React State, allows React to store used to store the data to allow the component to perform.
+
+Learn Bravo 2023 Syllabus . Unit Three .React State . https://github.com/learn-academy-2023-bravo/Syllabus/blob/main/react/state.md
+
+
+4. React props: Properties or otherwised known a props are a type of specialized React Objects that are used to pass information between components. Props allow the creation of a unidirectional flow of behavior and data between a "parent component down to a nested component via the component invocation" (Learn Bravo 2023 Syllabus). In React State values are always being updated via user interactions, however, props are not abled to be changed. They are considered a Read Only type value. 
+
+Referrences: 
+Learn Bravo 2023 Syllabus . Unit Three .React Props . https://github.com/learn-academy-2023-bravo/Syllabus/blob/main/react/props.md
+
+
+5. DOM events: React is a JavaScript based web application that was create to handle the ability interact with a user.  In React these interactions are called Document Object Model (DOM) events. Some examples of user-web appication interactions are: How a users is able to click with a mouse, place the cursor over elements, or type with a keyboard. 
+
+Referrences: 
+Learn Bravo 2023 Syllabus . Unit Three .React Inputs and Events . https://github.com/learn-academy-2023-bravo/Syllabus/blob/main/react/props.md
